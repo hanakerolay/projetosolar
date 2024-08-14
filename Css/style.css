@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url("paper.gif"); 
+    height: 10%;
+}
+
+h1{
+    display: inline-block;
+    text-align: center;
+}
+
+nav{
+    float: right;
+    text-align: center;
+}
+
+header>figure{
+    float: left;
+}
+
+nav>ul>li{
+    display: inline-block;
+}
+
+section>h1{
+    display: inline-block;
+}
+
