@@ -4,30 +4,104 @@
     font-family: Arial, sans-serif;
 }
 
-header {
-    background-image: url("paper.gif"); 
-    height: 10%;
-}
-
-h1{
-    display: inline-block;
-    text-align: center;
-}
-
-nav{
-    float: right;
-    text-align: center;
-}
-
 header>figure{
-    float: left;
+    float: left; 
 }
 
-nav>ul>li{
-    display: inline-block;
+header>nav>ul>li{
+    float: right;
+    display: inline-block;  
 }
 
-section>h1{
-    display: inline-block;
+li{
+    list-style: none;
+    background-color: #ffffff;
+    padding: 10px 10px 23px 65px;
 }
+
+
+#secao1>article{
+    width: 33%;
+    display:inline-block;
+    text-align: center;
+    color: #aeb2b4;
+}
+
+button{
+    font-size: 20px;
+    color: rgb(64, 162, 236);
+}
+
+#mi{
+    background-image: url("../img/Captura\ de\ tela\ 2024-08-16\ 031004.png");
+    background-size: cover;
+    height: 150px;
+    font-size: 40px;
+    color: #ffffff;
+    padding: 600px 55px 60px 70px;   
+}
+
+
+
+h2{
+    text-align: center;
+    padding: 25px 35px 15px 35px;
+}
+
+h3{
+    color:#f6b360;
+}
+
+h4{
+    font-size: 30px;
+    color: #209ad8;
+}
+
+.classe1{
+    height: 180px;
+    background-color: #1d3c4a;
+    color: aliceblue;
+    text-align: center;
+    padding: 25px 35px 15px 35px;
+}
+
+#tgd{
+    text-align: center;
+    padding: 10px 20px;
+    /*topo, Bixo */
+}
+
+#sec1>article{
+    width: 33%;
+    display: inline-block;
+    color: aliceblue;
+    
+}
+
+#sec1{
+    background-color: #424348;
+    padding: 1px 1px 1px 1px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+h6{
+    font-size: 20px;
+}
+
+#con>p{
+    width: 30%;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 10px;
+}
+
+#jes{
+    padding: 15px 15px 15px 10px;
+
+}
+
+
 
