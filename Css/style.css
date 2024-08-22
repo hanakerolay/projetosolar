@@ -8,6 +8,7 @@ header>figure{
     float: left; 
 }
 
+<<<<<<< Updated upstream
 header>nav>ul>li{
     float: right;
     display: inline-block;  
@@ -73,11 +74,23 @@ h4{
 
 #sec1>article{
     width: 33%;
+=======
+header>nav{
+    float: right;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+>>>>>>> Stashed changes
     display: inline-block;
     color: aliceblue;
     
 }
 
+<<<<<<< Updated upstream
 #sec1{
     background-color: #424348;
     padding: 1px 1px 1px 1px;
@@ -105,3 +118,36 @@ h6{
 
 
 
+=======
+
+#secao1>article{
+    width: 33%;
+    display:inline-block;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+h4{
+    font-size: 30px;
+    color: #209ad8;
+}
+
+.classe1{
+    height: 180px;
+    background-color: #1d3c4a;
+    color: aliceblue;
+    text-align: center;
+}
+
+#tgd{
+    text-align: center;
+    padding: 25px 35px 15px 35px;
+}
+
+#sec1{
+    height: 250px;
+    background-color: #3e4146;
+}
+>>>>>>> Stashed changes
