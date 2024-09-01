@@ -4,150 +4,221 @@
     font-family: Arial, sans-serif;
 }
 
-header>figure{
-    float: left; 
-}
-
-<<<<<<< Updated upstream
-header>nav>ul>li{
-    float: right;
-    display: inline-block;  
-}
-
-li{
-    list-style: none;
-    background-color: #ffffff;
-    padding: 10px 10px 23px 65px;
-}
-
-
-#secao1>article{
-    width: 33%;
-    display:inline-block;
-    text-align: center;
-    color: #aeb2b4;
-}
-
-button{
-    font-size: 20px;
-    color: rgb(64, 162, 236);
-}
-
-#mi{
-    background-image: url("../img/Captura\ de\ tela\ 2024-08-16\ 031004.png");
-    background-size: cover;
-    height: 150px;
-    font-size: 40px;
-    color: #ffffff;
-    padding: 600px 55px 60px 70px;   
-}
 
 
 
-h2{
-    text-align: center;
-    padding: 25px 35px 15px 35px;
-}
-
-h3{
-    color:#f6b360;
-}
-
-h4{
-    font-size: 30px;
-    color: #209ad8;
-}
-
-.classe1{
-    height: 180px;
-    background-color: #1d3c4a;
-    color: aliceblue;
-    text-align: center;
-    padding: 25px 35px 15px 35px;
-}
-
-#tgd{
-    text-align: center;
-    padding: 10px 20px;
-    /*topo, Bixo */
-}
-
-#sec1>article{
-    width: 33%;
-=======
-header>nav{
-    float: right;
-}
-
-ul{
-    list-style: none;
-}
-
-li{
->>>>>>> Stashed changes
-    display: inline-block;
-    color: aliceblue;
+@media only screen and (min-width: 1200px) {
+    .logo>img{
+        float:inline-start;
+    }
     
+    .pric{
+        background-color: #fdfdfd;
+        padding: 5px 8px 20px 5px;
+    }
+    
+    .barra>ul>li{
+        display: inline-block; 
+        float:right;   
+    }
+    
+    li{
+        list-style: none;
+        padding: 1px 55px 1px 105px;
+        font-size: 20px;
+        
+    }
+    
+    
+    #secao1>article{
+        width: 33%;
+        display:inline-block;
+        text-align: center;
+        color: #1a1a1b;
+        font-size: 20px;
+       
+        
+    }
+    
+    button{
+        font-size: 20px;
+        color: rgb(64, 162, 236);
+    }
+    
+    .mi>section>article{
+        background-image: url("../img/Captura\ de\ tela\ 2024-08-16\ 031004.png");
+        background-size: cover;
+        height: 150px;
+        font-size: 40px;
+        color: #ffffff;
+        padding: 600px 55px 60px 70px;
+        background-color: #1d3c4a;  
+    }
+    
+    
+    
+    h2{
+        text-align: center;
+        padding: 25px 35px 15px 35px;
+    }
+    
+    h3{
+        color:#f6b360;
+    }
+    
+    h4{
+        font-size: 30px;
+        color: #209ad8;
+    }
+    
+    .classe1{
+        height: 180px;
+        background-color: #1d3c4a;
+        color: aliceblue;
+        text-align: center;
+        padding: 25px 35px 15px 35px;
+    }
+    
+    #tgd{
+        text-align: center;
+        padding: 10px 20px;
+        /*topo, Bixo */
+    }
+    
+    #sec1>article{
+        width: 33%;
+        color: aliceblue;
+        display: inline-block;
+        
+    }
+    
+    #sec1{
+        background-color: #424348;
+        
+    }
+    
+    h5{
+        font-size: 18px;
+    }
+    
+    h6{
+        font-size: 20px;
+        
+        
+    }
+    
+    #con>p{
+        width: 30%;
+        display: inline-block;
+        background-color: #ffffff;
+        height: 10px;
+    }
+    
+    #jes{
+        padding: 15px 15px 15px 10px;
+    
+    }
 }
 
-<<<<<<< Updated upstream
-#sec1{
-    background-color: #424348;
-    padding: 1px 1px 1px 1px;
-}
 
-h5{
-    font-size: 18px;
-}
-
-h6{
-    font-size: 20px;
-}
-
-#con>p{
-    width: 30%;
-    display: inline-block;
-    background-color: #ffffff;
-    height: 10px;
-}
-
-#jes{
-    padding: 15px 15px 15px 10px;
-
-}
-
-
-
-=======
-
-#secao1>article{
-    width: 33%;
-    display:inline-block;
-    text-align: center;
-}
-
-h2{
-    text-align: center;
-}
-h4{
-    font-size: 30px;
-    color: #209ad8;
-}
-
-.classe1{
-    height: 180px;
-    background-color: #1d3c4a;
-    color: aliceblue;
-    text-align: center;
-}
-
-#tgd{
-    text-align: center;
-    padding: 25px 35px 15px 35px;
-}
-
-#sec1{
-    height: 250px;
-    background-color: #3e4146;
-}
->>>>>>> Stashed changes
+@media only screen and (max-width: 1199px) {
+    
+    .logo>img{
+        float:inline-start;
+    }
+    
+    .pric{
+        background-color: #57b1e6;
+    }
+    
+    
+    li{
+        list-style: none;
+        padding: 1px 5px 1px 20px;
+        font-size: 20px;
+        
+    }
+    
+    
+    #secao1>article{
+        text-align: center;
+        color: #1a1a1b;
+        font-size: 20px;
+       
+        
+    }
+    
+    button{
+        font-size: 15px;
+        color: rgb(3, 3, 244);
+    }
+    
+    .mi>section>article{
+        background-image: url("../img/Captura\ de\ tela\ 2024-08-16\ 031004.png");
+        background-size: cover;
+        height: 150px;
+        font-size: 20px;
+        color: #1500fa;
+        padding: 70px 70px 70px 70px;
+         
+    }
+    
+    
+    
+    h2{
+        text-align: center;
+        padding: 25px 35px 15px 35px;
+    }
+    
+    h3{
+        color:#1804f8;
+    }
+    
+    h4{
+        font-size: 30px;
+        color: #209ad8;
+    }
+    
+    .classe1{
+        height: 180px;
+        background-color: #2823be;
+        color: aliceblue;
+        text-align: center;
+        padding: 25px 35px 15px 35px;
+    }
+    
+    #tgd{
+        text-align: center;
+        padding: 10px 20px;
+        /*topo, Bixo */
+    }
+    
+    #sec1>article{
+        align-items: center;
+        color: rgb(6, 6, 6);
+        
+    }
+    
+    #sec1{
+        background-color: #97c2f4;
+        align-items: center;
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 18px;
+    }
+    
+    h6{
+        font-size: 20px;
+    }
+    
+    #con>p{
+        background-color: #ffffff;
+        height: 5px;
+        padding: 1px 1px 10px 1px;
+    }
+    
+    
+    
+  }
